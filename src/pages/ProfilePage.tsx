@@ -4,3 +4,5 @@
  import { useAuthStore } from '../store/authStore'
  import { useNavigate } from 'react-router-dom'
  import { User, Mail, CalendarCheck, Loader2, XCircle } from 'lucide-react'
+
+export default React
