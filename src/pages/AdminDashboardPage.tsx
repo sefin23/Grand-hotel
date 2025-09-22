@@ -17,3 +17,5 @@
 +  CalendarCheck,
  } from 'lucide-react'
  import axios from 'axios'
+
+export default axios
