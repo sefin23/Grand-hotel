@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2 text-primary hover:text-accent transition-colors duration-300">
           <Hotel className="w-8 h-8" />
-          <span className="text-2xl font-bold tracking-wide">BoltStay</span>
+          <span className="text-2xl font-bold tracking-wide">Grand Hotel</span>
         </Link>
 
         <div className="flex items-center gap-6">

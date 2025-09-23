@@ -19,7 +19,7 @@ const LoginPage: React.FC = () => {
     try {
       const response = await axios.post('http://localhost:5000/api/auth/login', { email, password })
       login(response.data.token, response.data.user)
-      navigate('/') // Redirect to home or dashboard after successful login
+      navigate('/') // Redirect to home after successful login
     } catch (err: any) {
       setError(err.response?.data?.message || 'Login failed. Please check your credentials.')
     } finally {

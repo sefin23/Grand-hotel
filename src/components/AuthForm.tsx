@@ -30,7 +30,7 @@ const AuthForm: React.FC<AuthFormProps> = ({
   return (
     <div className="bg-surface p-8 rounded-xl shadow-2xl w-full max-w-md border border-border animate-fade-in">
       <h2 className="text-4xl font-bold text-center text-primary mb-8">
-        {type === 'login' ? 'Welcome Back!' : 'Join BoltStay'}
+        {type === 'login' ? 'Welcome Back!' : 'Join Grand Hotel'}
       </h2>
       <form onSubmit={onSubmit} className="space-y-6">
         {type === 'register' && (

@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
             Your Perfect Stay, Every Time.
           </h1>
           <p className="text-xl mb-10 font-light opacity-90">
-            Discover exquisite rooms, state-of-the-art auditoriums, and seamless booking experiences with BoltStay.
+            Discover exquisite rooms, state-of-the-art auditoriums, and seamless booking experiences with Grand Hotel.
           </p>
           <Link
             to="/book"
@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
       {/* Features Section */}
       <section className="py-16 bg-surface rounded-xl shadow-xl border border-border mb-16 animate-fade-in">
         <div className="container mx-auto px-6">
-          <h2 className="text-5xl font-bold text-center text-text mb-12">Why Choose BoltStay?</h2>
+          <h2 className="text-5xl font-bold text-center text-text mb-12">Why Choose Grand Hotel?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div className="flex flex-col items-center text-center p-6 bg-background rounded-xl shadow-lg border border-border transform hover:scale-105 transition-transform duration-300">
               <Bed className="w-16 h-16 text-primary mb-6" />
@@ -82,7 +82,7 @@ const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <blockquote className="bg-surface p-8 rounded-xl shadow-lg border border-border relative">
               <p className="text-text text-lg italic mb-6">
-                "BoltStay exceeded all my expectations! The room was luxurious, the service impeccable, and the booking process was a breeze. Highly recommend!"
+                "Grand Hotel exceeded all my expectations! The room was luxurious, the service impeccable, and the booking process was a breeze. Highly recommend!"
               </p>
               <div className="flex items-center">
                 <img
@@ -98,7 +98,7 @@ const HomePage: React.FC = () => {
             </blockquote>
             <blockquote className="bg-surface p-8 rounded-xl shadow-lg border border-border relative">
               <p className="text-text text-lg italic mb-6">
-                "Booking our conference at BoltStay was the best decision. The auditorium was perfect, and the catering options were fantastic. Our event was a huge success!"
+                "Booking our conference at Grand Hotel was the best decision. The auditorium was perfect, and the catering options were fantastic. Our event was a huge success!"
               </p>
               <div className="flex items-center">
                 <img

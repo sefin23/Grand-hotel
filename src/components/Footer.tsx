@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-start">
           <Link to="/" className="flex items-center gap-2 text-primary mb-4">
             <Hotel className="w-7 h-7" />
-            <span className="text-xl font-bold tracking-wide">BoltStay</span>
+            <span className="text-xl font-bold tracking-wide">Grand Hotel</span>
           </Link>
           <p className="text-sm leading-relaxed">
             Experience unparalleled comfort and convenience. Your perfect stay, every time.
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
               <Linkedin className="w-6 h-6" />
             </a>
           </div>
-          <p className="text-sm mt-4">&copy; {new Date().getFullYear()} BoltStay. All rights reserved.</p>
+          <p className="text-sm mt-4">&copy; {new Date().getFullYear()} Grand Hotel. All rights reserved.</p>
         </div>
       </div>
     </footer>

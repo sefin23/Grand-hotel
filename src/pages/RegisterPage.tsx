@@ -20,7 +20,7 @@ const RegisterPage: React.FC = () => {
     try {
       const response = await axios.post('http://localhost:5000/api/auth/register', { name, email, password })
       login(response.data.token, response.data.user)
-      navigate('/') // Redirect to home or dashboard after successful registration
+      navigate('/') // Redirect to home after successful registration
     } catch (err: any) {
       setError(err.response?.data?.message || 'Registration failed. Please try again.')
     } finally {
